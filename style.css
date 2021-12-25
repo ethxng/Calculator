@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 300px;
+    height: 300px;
+    margin-left: 450px;
+    direction:rtl;
+    background-color: orange;
+}
+
+#screen {
+    margin-top: 160px;
+    margin-left: 450px;
+    max-width: 300px;
+    height: 80px;
+    border: 1px solid white;
+}
+
+.signs, .number {
+    font-size: 25px;
+}
+
+.display {
+    direction: rtl;
+    font-size: 50px;
+    /* with respect to the id screen*/
+    margin-top: 10px;
+}
+
+#clear {
+    width: 300px;
+    height: 50px;
+    margin-left: 450px;
+    font-size: 25px;
+    background-color: orange;
+}
